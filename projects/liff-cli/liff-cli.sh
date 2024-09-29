@@ -59,8 +59,9 @@ mkcert localhost
 # It will expire on 24 December 2026 🗓
 
 liff-cli serve \
-   --liff-id 2006202163-R0BoYE9W \
-   --url http://localhost:5173/
+   --liff-id 1234567890-R0BoYE9W \
+   --url http://localhost:5173
+   # --port 
 
 # Successfully updated endpoint url for LIFF ID: 1234567890-Jv5mrQdE.
 # →  LIFF URL:     https://liff.line.me/1234567890-Jv5mrQdE
